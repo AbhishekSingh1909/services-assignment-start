@@ -18,7 +18,7 @@ import { CounterService } from './services/counter.service';
     BrowserModule,
     FormsModule,
   ],
-  providers: [CounterService],
+  providers: [CounterService], // this Counter service available to all component application wide.
   bootstrap: [AppComponent]
 })
 export class AppModule { }

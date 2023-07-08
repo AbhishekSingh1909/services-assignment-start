@@ -1,6 +1,6 @@
 import { EventEmitter, Injectable } from "@angular/core";
 import { CounterService } from "./counter.service";
-
+// service will available to all component in application
 @Injectable({providedIn : 'root'})
 export class UserService{
     activeUsers = ['Max', 'Anna'];
